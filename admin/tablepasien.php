@@ -50,6 +50,8 @@
                   <th width="10%">No. Pasien</th>
                   <th>Nama Pasien</th>
                   <th>Alamat</th>
+                  <th>No.Telp</th>
+                  <th>Aksi</th>
                 </tr>
               </thead>
               <?php
@@ -60,6 +62,8 @@
                   <td><?php echo $data->NO_PAS ;?></td>
                   <td><?php echo $data->NAMA_PAS ; ?></td>
                   <td><?php echo $data->ALAMAT_PAS ; ?></td>
+                  <td><?php echo $data->TELP_PAS ; ?></td>
+                  <td><input type="button" name="edit" id="" value="Edit"></td>
                 </tr>
               <?php
               }
