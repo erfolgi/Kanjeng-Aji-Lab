@@ -70,10 +70,7 @@
             </table>
           </div>
         </div>
-        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-      </div>
-    </div>
-      <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="col-xl-3 col-sm-6 mb-3">
         <a class="button" href="Pendaftaran Pasien.php">
           <span class="float-left">Input</span>
           <span class="float-right">
@@ -81,9 +78,14 @@
           </span>
         </a>
       </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+
+    </div>
+      
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
-    <footer class="sticky-footer">
+    <footer id="footer">
       <div>
         <div class="text-center">
           <large>Wapik Creative, Copyright © 2017</large>
